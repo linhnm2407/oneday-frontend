@@ -1,0 +1,26 @@
+.book-container {
+  border: 1px dotted pink;
+  padding: 1em;
+  margin: auto;
+  max-width: 22em;
+  display: flex;
+  align-items: center;
+}
+
+.book-img img {
+  width: 20vw;
+  display: flex;
+  align-items: center;
+}
+
+.book-card {
+  display: flex;
+}
+
+.book-details {
+  padding: 1em;
+}
+
+.book-details h3 {
+  padding: 0.7em;
+}
