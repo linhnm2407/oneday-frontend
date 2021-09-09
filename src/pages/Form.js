@@ -56,6 +56,7 @@ const Form = ({ initialBook, handleSubmit, buttonLabel, history }) => {
           type="checkbox"
           onChange={handleChange}
           checked={formData.read}
+          value=""
           name="read"
         />
       </label>
